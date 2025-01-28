@@ -192,7 +192,6 @@ const DesignConfigurator = ({
             width: imageDimensions.width / 4,
             height: imageDimensions.height / 4,
           }}
-          // eslint-disable-next-line @typescript-eslint/no-unused-vars
           onResizeStop={(_, __, ref, ___, { x, y }) => {
             setRedenredDimension({
               width: parseInt(ref.style.width.slice(0, -2)),
