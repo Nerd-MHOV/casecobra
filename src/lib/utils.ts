@@ -42,5 +42,6 @@ export function constructMetadata({
       creator: "@nerdmhov",
     },
     icons,
+    metadataBase: new URL("https://casecobra-fawn-nu.vercel.app/"),
   };
 }
